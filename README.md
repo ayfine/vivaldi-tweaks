@@ -11,26 +11,28 @@ Because Vivaldi is closed source (especially the UI layer) the documentation for
 (For Windows)
 
 `%localappdata%\Vivaldi\Application\[version]\resources\vivaldi\`
+
 `%localappdata%\Vivaldi\Application\[version]\resources\vivaldi\user_files`
+
 `%localappdata%\Vivaldi\Application\User Data\default`
 
 
 ```
 %localappdata%\Vivaldi
 ├── Application
-│		└── [version]
+│	└── [version]
 │   		├── resources
 │   		└── vivaldi
 │       		├── background-common-bundle.js
 │       		├── user_files
 │       		│ 	└── [page action css/js]
 │       		└── style
-│       				├── common.css
-│       				└── common.js
+│       			├── common.css
+│       			└── common.js
 └── User Data
-		└── default
-    	├── extensions
-    	└── cache
+	└── default
+    		├── extensions
+    		└── cache
 ```
 
 ### Vivaldi URLs List
